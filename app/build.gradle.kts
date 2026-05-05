@@ -69,7 +69,4 @@ dependencies {
     // Dependencias base de ObjectBox
     implementation ("io.objectbox:objectbox-android:5.4.1")
     implementation ("io.objectbox:objectbox-kotlin:5.4.1")
-
-    // Dependencia adicional para pruebas de rendimiento (opcional)
-    debugImplementation ("io.objectbox:objectbox-android-objectbrowser:5.4.1")
 }
