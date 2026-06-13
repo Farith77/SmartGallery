@@ -61,12 +61,12 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
 
-    // TensorFlow Lite (Core y Support)
-    implementation("org.tensorflow:tensorflow-lite:2.14.0")
-    implementation("org.tensorflow:tensorflow-lite-support:0.4.4")
-    implementation("org.tensorflow:tensorflow-lite-gpu:2.14.0") // Para aceleración por hardware
+    // Ahora usamos ONNX para Android
+    implementation("com.microsoft.onnxruntime:onnxruntime-android:1.19.2")
 
     // Dependencias base de ObjectBox
     implementation ("io.objectbox:objectbox-android:5.4.1")
     implementation ("io.objectbox:objectbox-kotlin:5.4.1")
+
+    implementation("io.coil-kt:coil-compose:2.5.0")
 }
